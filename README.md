@@ -63,4 +63,13 @@ Entregables del Proyecto
   - Comparación de tiempos y planes de ejecución.  
 - **Entregables específicos:**  
   - Informe final en PDF  
-  - Resultados de pruebas  
+  - Resultados de pruebas
+
+### Contenido del Repositorio:
+/RetailDB-Proyecto/
+├── /docs/ # Documentación
+├── /postgresql/ # Scripts PostgreSQL
+├── /oracle/ # Scripts Oracle
+├── /data/ # Datos de prueba
+├── /tests/ # Scripts de pruebas
+└── README.md # Guía del proyecto
