@@ -1,5 +1,5 @@
 # RetailDB-Proyecto
-# Proyecto Base de Datos - TechStore Perú
+# Proyecto Base de Datos 2 - TechStore Perú
 
 Este repositorio contiene el desarrollo del proyecto académico 1 de **Gestión de Base de Datos** aplicado al caso empresarial **TechStore Perú**, abarcando desde el análisis inicial hasta la implementación en PostgreSQL y Oracle, y finalmente el análisis comparativo.
 
