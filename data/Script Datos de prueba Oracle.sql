@@ -1,0 +1,152 @@
+INSERT INTO categorias (nombre, descripcion, estado) VALUES ('Laptops', 'Computadoras portátiles de diversas marcas', 1);
+INSERT INTO categorias (nombre, descripcion, estado) VALUES ('Smartphones', 'Teléfonos inteligentes Android e iOS', 1);
+INSERT INTO categorias (nombre, descripcion, estado) VALUES ('Tablets', 'Tablets y dispositivos híbridos', 1);
+INSERT INTO categorias (nombre, descripcion, estado) VALUES ('Accesorios', 'Fundas, cargadores, cables y más', 1);
+INSERT INTO categorias (nombre, descripcion, estado) VALUES ('Monitores', 'Pantallas LED, IPS y gaming', 1);
+INSERT INTO categorias (nombre, descripcion, estado) VALUES ('Almacenamiento', 'Discos duros, SSD y memorias USB', 1);
+INSERT INTO categorias (nombre, descripcion, estado) VALUES ('Periféricos', 'Teclados, mouse, audífonos', 1);
+INSERT INTO categorias (nombre, descripcion, estado) VALUES ('Impresoras', 'Impresoras y multifuncionales', 1);
+INSERT INTO categorias (nombre, descripcion, estado) VALUES ('Redes', 'Routers, switches y repetidores WiFi', 1);
+INSERT INTO categorias (nombre, descripcion, estado) VALUES ('Software', 'Licencias y suscripciones digitales', 1);
+
+INSERT INTO productos (nombre, descripcion, id_categoria, precio_compra, precio_venta, stock_minimo, estado) VALUES ('Laptop Lenovo ThinkPad X1', 'Laptop empresarial con procesador Intel i7', 1, 3500.00, 4500.00, 5, 1);
+INSERT INTO productos (nombre, descripcion, id_categoria, precio_compra, precio_venta, stock_minimo, estado) VALUES ('Laptop HP Pavilion 15', 'Laptop para estudiantes con Ryzen 5', 1, 2800.00, 3500.00, 5, 1);
+INSERT INTO productos (nombre, descripcion, id_categoria, precio_compra, precio_venta, stock_minimo, estado) VALUES ('Laptop Dell XPS 13', 'Laptop ultrabook premium', 1, 4000.00, 5200.00, 5, 1);
+INSERT INTO productos (nombre, descripcion, id_categoria, precio_compra, precio_venta, stock_minimo, estado) VALUES ('iPhone 14 Pro Max', 'Smartphone Apple última generación', 2, 4500.00, 5500.00, 10, 1);
+INSERT INTO productos (nombre, descripcion, id_categoria, precio_compra, precio_venta, stock_minimo, estado) VALUES ('Samsung Galaxy S23', 'Smartphone gama alta Samsung', 2, 3800.00, 4800.00, 8, 1);
+INSERT INTO productos (nombre, descripcion, id_categoria, precio_compra, precio_venta, stock_minimo, estado) VALUES ('Xiaomi Redmi Note 12', 'Smartphone gama media Xiaomi', 2, 800.00, 1200.00, 15, 1);
+INSERT INTO productos (nombre, descripcion, id_categoria, precio_compra, precio_venta, stock_minimo, estado) VALUES ('iPad Air 5', 'Tablet Apple 10.9 pulgadas', 3, 2200.00, 3000.00, 6, 1);
+INSERT INTO productos (nombre, descripcion, id_categoria, precio_compra, precio_venta, stock_minimo, estado) VALUES ('Samsung Galaxy Tab S8', 'Tablet Android con S-Pen', 3, 1800.00, 2600.00, 6, 1);
+INSERT INTO productos (nombre, descripcion, id_categoria, precio_compra, precio_venta, stock_minimo, estado) VALUES ('Kindle Paperwhite', 'E-reader con luz frontal', 3, 400.00, 600.00, 10, 1);
+INSERT INTO productos (nombre, descripcion, id_categoria, precio_compra, precio_venta, stock_minimo, estado) VALUES ('Cargador USB-C 65W', 'Cargador universal para laptops y móviles', 4, 80.00, 150.00, 20, 1);
+INSERT INTO productos (nombre, descripcion, id_categoria, precio_compra, precio_venta, stock_minimo, estado) VALUES ('Cable HDMI 2m', 'Cable de alta velocidad para video 4K', 4, 20.00, 45.00, 30, 1);
+INSERT INTO productos (nombre, descripcion, id_categoria, precio_compra, precio_venta, stock_minimo, estado) VALUES ('Mouse Logitech G502', 'Mouse gamer con RGB', 7, 120.00, 220.00, 15, 1);
+INSERT INTO productos (nombre, descripcion, id_categoria, precio_compra, precio_venta, stock_minimo, estado) VALUES ('Teclado Mecánico HyperX', 'Teclado gamer con switches rojos', 7, 180.00, 300.00, 15, 1);
+INSERT INTO productos (nombre, descripcion, id_categoria, precio_compra, precio_venta, stock_minimo, estado) VALUES ('Auriculares Sony WH-1000XM5', 'Audífonos con cancelación de ruido', 7, 800.00, 1200.00, 10, 1);
+INSERT INTO productos (nombre, descripcion, id_categoria, precio_compra, precio_venta, stock_minimo, estado) VALUES ('SSD Kingston 1TB', 'Unidad de estado sólido NVMe', 6, 250.00, 420.00, 10, 1);
+INSERT INTO productos (nombre, descripcion, id_categoria, precio_compra, precio_venta, stock_minimo, estado) VALUES ('HDD Seagate 2TB', 'Disco duro externo portátil', 6, 180.00, 300.00, 10, 1);
+INSERT INTO productos (nombre, descripcion, id_categoria, precio_compra, precio_venta, stock_minimo, estado) VALUES ('Monitor LG UltraGear 27"', 'Monitor gamer 144Hz', 5, 900.00, 1300.00, 5, 1);
+INSERT INTO productos (nombre, descripcion, id_categoria, precio_compra, precio_venta, stock_minimo, estado) VALUES ('Monitor Samsung Odyssey 32"', 'Monitor curvo QHD', 5, 1200.00, 1700.00, 5, 1);
+INSERT INTO productos (nombre, descripcion, id_categoria, precio_compra, precio_venta, stock_minimo, estado) VALUES ('Router TP-Link AX1800', 'Router WiFi 6 de alta velocidad', 9, 300.00, 500.00, 10, 1);
+INSERT INTO productos (nombre, descripcion, id_categoria, precio_compra, precio_venta, stock_minimo, estado) VALUES ('Switch Cisco 24P', 'Switch administrable 24 puertos', 9, 2000.00, 3000.00, 2, 1);
+INSERT INTO productos (nombre, descripcion, id_categoria, precio_compra, precio_venta, stock_minimo, estado) VALUES ('Impresora HP DeskJet 2720', 'Impresora multifuncional', 8, 400.00, 650.00, 6, 1);
+INSERT INTO productos (nombre, descripcion, id_categoria, precio_compra, precio_venta, stock_minimo, estado) VALUES ('Impresora Epson EcoTank', 'Impresora de tanques de tinta', 8, 900.00, 1400.00, 6, 1);
+INSERT INTO productos (nombre, descripcion, id_categoria, precio_compra, precio_venta, stock_minimo, estado) VALUES ('Windows 11 Pro', 'Licencia original', 10, 300.00, 600.00, 50, 1);
+INSERT INTO productos (nombre, descripcion, id_categoria, precio_compra, precio_venta, stock_minimo, estado) VALUES ('Office 365', 'Suscripción anual', 10, 200.00, 400.00, 50, 1);
+INSERT INTO productos (nombre, descripcion, id_categoria, precio_compra, precio_venta, stock_minimo, estado) VALUES ('Antivirus Kaspersky', 'Licencia por 1 año', 10, 80.00, 150.00, 50, 1);
+INSERT INTO productos (nombre, descripcion, id_categoria, precio_compra, precio_venta, stock_minimo, estado) VALUES ('Laptop Acer Nitro 5', 'Laptop gamer Ryzen 7 + RTX 3060', 1, 3500.00, 4800.00, 5, 1);
+INSERT INTO productos (nombre, descripcion, id_categoria, precio_compra, precio_venta, stock_minimo, estado) VALUES ('Smartwatch Apple Watch 8', 'Reloj inteligente Apple', 2, 1500.00, 2200.00, 10, 1);
+INSERT INTO productos (nombre, descripcion, id_categoria, precio_compra, precio_venta, stock_minimo, estado) VALUES ('Smartwatch Samsung Galaxy Watch 5', 'Reloj inteligente Samsung', 2, 1200.00, 1900.00, 10, 1);
+INSERT INTO productos (nombre, descripcion, id_categoria, precio_compra, precio_venta, stock_minimo, estado) VALUES ('Tablet Huawei MatePad', 'Tablet Android con pantalla 2K', 3, 1000.00, 1600.00, 6, 1);
+INSERT INTO productos (nombre, descripcion, id_categoria, precio_compra, precio_venta, stock_minimo, estado) VALUES ('SSD Samsung EVO 2TB', 'Unidad de estado sólido rápida', 6, 500.00, 800.00, 10, 1);
+
+INSERT INTO proveedores (nombre, contacto, telefono, email, direccion) VALUES ('Lenovo Perú', 'Carlos Ramírez', '987654321', 'carlos@lenovo.com', 'Av. Javier Prado 123, Lima');
+INSERT INTO proveedores (nombre, contacto, telefono, email, direccion) VALUES ('HP Perú', 'María López', '912345678', 'maria@hp.com', 'Av. La Marina 456, Lima');
+INSERT INTO proveedores (nombre, contacto, telefono, email, direccion) VALUES ('Dell Perú', 'Jorge Pérez', '923456789', 'jorge@dell.com', 'Av. Angamos 789, Lima');
+INSERT INTO proveedores (nombre, contacto, telefono, email, direccion) VALUES ('Apple Perú', 'Ana Torres', '934567890', 'ana@apple.com', 'Av. Primavera 101, Lima');
+INSERT INTO proveedores (nombre, contacto, telefono, email, direccion) VALUES ('Samsung Perú', 'Luis Fernández', '945678901', 'luis@samsung.com', 'Av. Universitaria 234, Lima');
+INSERT INTO proveedores (nombre, contacto, telefono, email, direccion) VALUES ('Xiaomi Perú', 'Pedro Morales', '956789012', 'pedro@xiaomi.com', 'Av. Brasil 567, Lima');
+INSERT INTO proveedores (nombre, contacto, telefono, email, direccion) VALUES ('Kingston Perú', 'Sofía García', '967890123', 'sofia@kingston.com', 'Av. Arequipa 890, Lima');
+INSERT INTO proveedores (nombre, contacto, telefono, email, direccion) VALUES ('Epson Perú', 'Raúl Medina', '978901234', 'raul@epson.com', 'Av. Grau 345, Arequipa');
+INSERT INTO proveedores (nombre, contacto, telefono, email, direccion) VALUES ('Cisco Perú', 'Elena Vargas', '989012345', 'elena@cisco.com', 'Av. Salaverry 678, Lima');
+INSERT INTO proveedores (nombre, contacto, telefono, email, direccion) VALUES ('Microsoft Perú', 'Fernando Castro', '990123456', 'fernando@microsoft.com', 'Av. Larco 987, Trujillo');
+
+INSERT INTO productos_proveedores (id_producto, id_proveedor) VALUES (1, 1);
+INSERT INTO productos_proveedores (id_producto, id_proveedor) VALUES (1, 2);
+INSERT INTO productos_proveedores (id_producto, id_proveedor) VALUES (2, 1);
+INSERT INTO productos_proveedores (id_producto, id_proveedor) VALUES (2, 3);
+INSERT INTO productos_proveedores (id_producto, id_proveedor) VALUES (3, 2);
+INSERT INTO productos_proveedores (id_producto, id_proveedor) VALUES (3, 4);
+INSERT INTO productos_proveedores (id_producto, id_proveedor) VALUES (4, 2);
+INSERT INTO productos_proveedores (id_producto, id_proveedor) VALUES (4, 5);
+INSERT INTO productos_proveedores (id_producto, id_proveedor) VALUES (5, 3);
+INSERT INTO productos_proveedores (id_producto, id_proveedor) VALUES (5, 6);
+INSERT INTO productos_proveedores (id_producto, id_proveedor) VALUES (6, 7);
+INSERT INTO productos_proveedores (id_producto, id_proveedor) VALUES (6, 8);
+INSERT INTO productos_proveedores (id_producto, id_proveedor) VALUES (7, 9);
+INSERT INTO productos_proveedores (id_producto, id_proveedor) VALUES (7, 10);
+INSERT INTO productos_proveedores (id_producto, id_proveedor) VALUES (8, 3);
+INSERT INTO productos_proveedores (id_producto, id_proveedor) VALUES (8, 7);
+INSERT INTO productos_proveedores (id_producto, id_proveedor) VALUES (9, 4);
+INSERT INTO productos_proveedores (id_producto, id_proveedor) VALUES (9, 8);
+INSERT INTO productos_proveedores (id_producto, id_proveedor) VALUES (10, 5);
+INSERT INTO productos_proveedores (id_producto, id_proveedor) VALUES (10, 6);
+INSERT INTO productos_proveedores (id_producto, id_proveedor) VALUES (11, 2);
+INSERT INTO productos_proveedores (id_producto, id_proveedor) VALUES (11, 7);
+INSERT INTO productos_proveedores (id_producto, id_proveedor) VALUES (12, 1);
+INSERT INTO productos_proveedores (id_producto, id_proveedor) VALUES (12, 10);
+INSERT INTO productos_proveedores (id_producto, id_proveedor) VALUES (13, 6);
+INSERT INTO productos_proveedores (id_producto, id_proveedor) VALUES (13, 9);
+INSERT INTO productos_proveedores (id_producto, id_proveedor) VALUES (14, 3);
+INSERT INTO productos_proveedores (id_producto, id_proveedor) VALUES (14, 8);
+INSERT INTO productos_proveedores (id_producto, id_proveedor) VALUES (15, 4);
+INSERT INTO productos_proveedores (id_producto, id_proveedor) VALUES (15, 9);
+
+INSERT INTO tiendas (nombre, direccion, ciudad, telefono) VALUES ('TechStore Lima Centro', 'Av. Abancay 1234', 'Lima', '998133000');
+INSERT INTO tiendas (nombre, direccion, ciudad, telefono) VALUES ('TechStore San Isidro', 'Av. Javier Prado 567', 'Lima', '923124567');
+INSERT INTO tiendas (nombre, direccion, ciudad, telefono) VALUES ('TechStore Miraflores', 'Av. Larco 890', 'Lima', '932124567');
+INSERT INTO tiendas (nombre, direccion, ciudad, telefono) VALUES ('TechStore La Molina', 'Av. La Molina 456', 'Lima', '973123456');
+INSERT INTO tiendas (nombre, direccion, ciudad, telefono) VALUES ('TechStore San Miguel', 'Av. Universitaria 234', 'Lima', '982111111');
+INSERT INTO tiendas (nombre, direccion, ciudad, telefono) VALUES ('TechStore Surco', 'Av. Benavides 678', 'Lima', '988333444');
+INSERT INTO tiendas (nombre, direccion, ciudad, telefono) VALUES ('TechStore Callao', 'Av. Colonial 123', 'Lima', '966487465');
+
+INSERT INTO inventario_tienda (id_tienda, id_producto, stock_actual, stock_reservado) VALUES (1, 1, 20, 2);
+INSERT INTO inventario_tienda (id_tienda, id_producto, stock_actual, stock_reservado) VALUES (1, 2, 15, 1);
+INSERT INTO inventario_tienda (id_tienda, id_producto, stock_actual, stock_reservado) VALUES (1, 3, 30, 5);
+INSERT INTO inventario_tienda (id_tienda, id_producto, stock_actual, stock_reservado) VALUES (1, 4, 25, 3);
+INSERT INTO inventario_tienda (id_tienda, id_producto, stock_actual, stock_reservado) VALUES (1, 5, 18, 2);
+INSERT INTO inventario_tienda (id_tienda, id_producto, stock_actual, stock_reservado) VALUES (1, 6, 40, 4);
+INSERT INTO inventario_tienda (id_tienda, id_producto, stock_actual, stock_reservado) VALUES (1, 7, 50, 6);
+INSERT INTO inventario_tienda (id_tienda, id_producto, stock_actual, stock_reservado) VALUES (1, 8, 35, 2);
+INSERT INTO inventario_tienda (id_tienda, id_producto, stock_actual, stock_reservado) VALUES (1, 9, 22, 1);
+INSERT INTO inventario_tienda (id_tienda, id_producto, stock_actual, stock_reservado) VALUES (1, 10, 27, 3);
+INSERT INTO inventario_tienda (id_tienda, id_producto, stock_actual, stock_reservado) VALUES (2, 1, 10, 1);
+INSERT INTO inventario_tienda (id_tienda, id_producto, stock_actual, stock_reservado) VALUES (2, 2, 12, 2);
+INSERT INTO inventario_tienda (id_tienda, id_producto, stock_actual, stock_reservado) VALUES (2, 3, 20, 2);
+INSERT INTO inventario_tienda (id_tienda, id_producto, stock_actual, stock_reservado) VALUES (2, 4, 18, 1);
+INSERT INTO inventario_tienda (id_tienda, id_producto, stock_actual, stock_reservado) VALUES (2, 5, 14, 2);
+INSERT INTO inventario_tienda (id_tienda, id_producto, stock_actual, stock_reservado) VALUES (2, 6, 30, 3);
+INSERT INTO inventario_tienda (id_tienda, id_producto, stock_actual, stock_reservado) VALUES (2, 7, 40, 5);
+INSERT INTO inventario_tienda (id_tienda, id_producto, stock_actual, stock_reservado) VALUES (2, 8, 25, 2);
+INSERT INTO inventario_tienda (id_tienda, id_producto, stock_actual, stock_reservado) VALUES (2, 9, 15, 1);
+INSERT INTO inventario_tienda (id_tienda, id_producto, stock_actual, stock_reservado) VALUES (2, 10, 20, 2);
+
+INSERT INTO clientes (nombre, apellidos, dni, email, telefono, fecha_registro) VALUES ('Carlos', 'Ramírez López', '12345678', 'carlos.ramirez@example.com', '987654321', TO_DATE('2025-01-15','YYYY-MM-DD'));
+INSERT INTO clientes (nombre, apellidos, dni, email, telefono, fecha_registro) VALUES ('María', 'Fernández Ruiz', '87654321', 'maria.fernandez@example.com', '912345678', TO_DATE('2025-02-20','YYYY-MM-DD'));
+INSERT INTO clientes (nombre, apellidos, dni, email, telefono, fecha_registro) VALUES ('José', 'Torres Huamán', '45678912', 'jose.torres@example.com', '998877665', TO_DATE('2025-03-10','YYYY-MM-DD'));
+INSERT INTO clientes (nombre, apellidos, dni, email, telefono, fecha_registro) VALUES ('Lucía', 'Castillo Paredes', '78912345', 'lucia.castillo@example.com', '987112233', TO_DATE('2025-04-05','YYYY-MM-DD'));
+INSERT INTO clientes (nombre, apellidos, dni, email, telefono, fecha_registro) VALUES ('Andrés', 'Mendoza Quispe', '11223344', 'andres.mendoza@example.com', '955667788', TO_DATE('2025-05-02','YYYY-MM-DD'));
+
+INSERT INTO empleados (nombre, apellidos, dni, cargo, tienda_id, fecha_ingreso) VALUES ('Juan', 'Pérez García', '44556677', 'Vendedor', 1, TO_DATE('2024-05-01','YYYY-MM-DD'));
+INSERT INTO empleados (nombre, apellidos, dni, cargo, tienda_id, fecha_ingreso) VALUES ('Sofía', 'Martínez Díaz', '55667788', 'Administrador', 2, TO_DATE('2023-11-10','YYYY-MM-DD'));
+INSERT INTO empleados (nombre, apellidos, dni, cargo, tienda_id, fecha_ingreso) VALUES ('Diego', 'Gómez Torres', '66778899', 'Soporte Técnico', 3, TO_DATE('2024-01-20','YYYY-MM-DD'));
+INSERT INTO empleados (nombre, apellidos, dni, cargo, tienda_id, fecha_ingreso) VALUES ('Ana', 'Reyes Vargas', '77889900', 'Cajera', 1, TO_DATE('2024-07-15','YYYY-MM-DD'));
+INSERT INTO empleados (nombre, apellidos, dni, cargo, tienda_id, fecha_ingreso) VALUES ('Luis', 'Flores Ramos', '88990011', 'Gerente', 4, TO_DATE('2021-09-30','YYYY-MM-DD'));
+
+INSERT INTO ventas (fecha_venta, cliente_id, empleado_id, tienda_id, total, estado) VALUES (TO_TIMESTAMP('2024-06-10 10:30:00','YYYY-MM-DD HH24:MI:SS'), 1, 1, 1, 3500.00, 'PAGADA');
+INSERT INTO ventas (fecha_venta, cliente_id, empleado_id, tienda_id, total, estado) VALUES (TO_TIMESTAMP('2024-06-12 15:45:00','YYYY-MM-DD HH24:MI:SS'), 2, 2, 2, 2400.00, 'PAGADA');
+INSERT INTO ventas (fecha_venta, cliente_id, empleado_id, tienda_id, total, estado) VALUES (TO_TIMESTAMP('2024-06-15 18:20:00','YYYY-MM-DD HH24:MI:SS'), 3, 3, 3, 1500.00, 'ANULADA');
+INSERT INTO ventas (fecha_venta, cliente_id, empleado_id, tienda_id, total, estado) VALUES (TO_TIMESTAMP('2024-06-18 11:10:00','YYYY-MM-DD HH24:MI:SS'), 4, 4, 1, 500.00, 'PAGADA');
+INSERT INTO ventas (fecha_venta, cliente_id, empleado_id, tienda_id, total, estado) VALUES (TO_TIMESTAMP('2024-06-20 16:00:00','YYYY-MM-DD HH24:MI:SS'), 5, 5, 4, 8200.00, 'PENDIENTE');
+
+INSERT INTO detalle_venta (id_venta, id_producto, cantidad, precio_unitario) VALUES (1, 1, 1, 3500.00);
+INSERT INTO detalle_venta (id_venta, id_producto, cantidad, precio_unitario) VALUES (2, 2, 2, 1200.00);
+INSERT INTO detalle_venta (id_venta, id_producto, cantidad, precio_unitario) VALUES (3, 3, 1, 1500.00);
+INSERT INTO detalle_venta (id_venta, id_producto, cantidad, precio_unitario) VALUES (4, 5, 5, 100.00);
+INSERT INTO detalle_venta (id_venta, id_producto, cantidad, precio_unitario) VALUES (5, 4, 4, 2050.00);
+
+INSERT INTO movimientos_inventario (tipo_movimiento, id_producto, cantidad, usuario_id) VALUES ('ENTRADA', 1, 50, 1);
+INSERT INTO movimientos_inventario (tipo_movimiento, id_producto, cantidad, usuario_id) VALUES ('SALIDA', 2, 10, 2);
+INSERT INTO movimientos_inventario (tipo_movimiento, id_producto, cantidad, usuario_id) VALUES ('ENTRADA', 3, 30, 3);
+INSERT INTO movimientos_inventario (tipo_movimiento, id_producto, cantidad, usuario_id) VALUES ('SALIDA', 5, 5, 4);
+INSERT INTO movimientos_inventario (tipo_movimiento, id_producto, cantidad, usuario_id) VALUES ('ENTRADA', 4, 20, 5);
+
+INSERT INTO auditoria_precios (id_producto, precio_anterior, precio_nuevo, usuario_id) VALUES (1, 3300.00, 3500.00, 1);
+INSERT INTO auditoria_precios (id_producto, precio_anterior, precio_nuevo, usuario_id) VALUES (2, 1100.00, 1200.00, 2);
+INSERT INTO auditoria_precios (id_producto, precio_anterior, precio_nuevo, usuario_id) VALUES (3, 1400.00, 1500.00, 3);
+INSERT INTO auditoria_precios (id_producto, precio_anterior, precio_nuevo, usuario_id) VALUES (4, 2000.00, 2050.00, 4);
+INSERT INTO auditoria_precios (id_producto, precio_anterior, precio_nuevo, usuario_id) VALUES (5, 90.00, 100.00, 5);
+select * from ventas
+select * from productos
+
+COMMIT;
