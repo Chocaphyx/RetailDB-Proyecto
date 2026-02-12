@@ -1,4 +1,4 @@
-# RetailDB – Sistema de Base de Datos Empresarial (PostgreSQL + Oracle)
+# Sistema de Gestión Empresarial Multi – SGDB para Retail
 
 Proyecto académico desarrollado para el curso **Base de datos 2** basado en el caso empresarial *TechStore Perú*.  
 El proyecto abarca el ciclo completo de desarrollo de bases de datos: análisis, diseño, implementación, pruebas y evaluación comparativa entre SGBD.
