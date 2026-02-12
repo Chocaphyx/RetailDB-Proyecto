@@ -69,7 +69,7 @@ CREATE TABLE empleados (
     fecha_ingreso DATE DEFAULT CURRENT_DATE
 );
 
--- Ahora gerente se controla desde empleados (evitamos dependencia transitiva)
+-- Ahora gerente se controla desde empleados 
 ALTER TABLE tiendas
     ADD COLUMN gerente_id INT,
     ADD CONSTRAINT fk_gerente FOREIGN KEY (gerente_id) REFERENCES empleados(id_empleado);
