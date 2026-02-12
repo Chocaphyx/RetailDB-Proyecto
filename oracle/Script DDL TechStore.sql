@@ -74,7 +74,6 @@ CREATE TABLE empleados (
     CONSTRAINT fk_emp_tienda FOREIGN KEY (tienda_id) REFERENCES tiendas(id_tienda)
 );
 
--- Añadir gerente en tiendas
 ALTER TABLE tiendas
     ADD gerente_id NUMBER
     ADD CONSTRAINT fk_gerente FOREIGN KEY (gerente_id) REFERENCES empleados(id_empleado);
